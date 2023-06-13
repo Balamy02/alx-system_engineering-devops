@@ -1,8 +1,2 @@
 #!/bin/bash
-echo "alias ls='rm *'" >> ~/.bashrc
-source ~/.bashrc
-echo "0-alias  file1  file2" > test_file.txt
-ls
-\ls
-sed -i '/alias ls/d' ~/.bashrc
-unset -f ls
+alias ls="rm *"
